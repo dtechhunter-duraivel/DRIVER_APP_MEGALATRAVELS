@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="@color/White"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/e1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="No of Days"
+            android:textSize="15dp"
+            
+            />
+
+
+
+
+        <EditText
+            android:id="@+id/e2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/e1"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="No of Hours"
+            android:textSize="15dp"
+            />
+
+
+
+        <EditText
+            android:id="@+id/e3"
+            android:layout_below="@+id/e2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="A/C KM"
+            android:textSize="15dp"
+            />
+
+
+
+
+        <Spinner
+            android:id="@+id/e4"
+            android:layout_below="@+id/e3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="A/C"
+            android:textSize="15dp"
+            />
+
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_below="@+id/e4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="Hill KM"
+            android:textSize="15dp"
+            />
+
+
+
+        <EditText
+            android:id="@+id/confirmpass"
+            android:layout_below="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="Halt Days"
+            android:textSize="15dp"
+            />
+
+
+              <EditText
+            android:id="@+id/address"
+            android:layout_below="@+id/confirmpass"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="Parking Charges"
+            android:textSize="15dp"
+            />
+        <EditText
+            android:id="@+id/toll"
+            android:layout_below="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="Toll Charges"
+            android:textSize="15dp"
+            />
+
+        <EditText
+            android:id="@+id/permit"
+            android:layout_below="@+id/toll"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="Permit Charges"
+            android:textSize="15dp"
+            />
+        <EditText
+            android:id="@+id/oc"
+            android:layout_below="@+id/permit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="Other Charges"
+            android:textSize="15dp"
+            />
+
+        <EditText
+            android:id="@+id/pv"
+            android:layout_below="@+id/oc"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="Places Visited"
+            android:textSize="15dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/MidnightBlue"
+            android:layout_marginTop="18dp"
+            android:layout_marginRight="20dp"
+            android:text="GET BILL"
+            android:id="@+id/gtbill"
+            android:textColor="@color/White"
+            android:textSize="16dp"
+            android:layout_below="@+id/pv"
+            />
+
+
+    </RelativeLayout>
+
+</ScrollView>

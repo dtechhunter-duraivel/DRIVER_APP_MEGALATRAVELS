@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="200dp"
+    android:layout_height="147dp">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="26dp"
+        android:layout_centerHorizontal="true"
+        android:text="MOHAMED BILAL"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+
+
+    <TextView
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@+id/text"
+
+        android:text="9080558660" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/text"
+        android:layout_below="@+id/text"
+        android:text="DURAIVEL"
+        android:textSize="18sp"
+        android:layout_marginTop="30dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/text2"
+        android:layout_marginLeft="50dp"
+        android:text="9994314045" />
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_alignStart="@+id/text"
+        android:layout_below="@+id/text2"
+        android:layout_marginTop="2.3dp"
+        android:background="@drawable/cphone" />
+
+    <Button
+        android:id="@+id/dialogButtonOK"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="X"
+        android:textSize="6sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Receipt"
+    android:background="@color/White"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/times"
+            android:text="TOTAL COST"
+            android:textColor="@color/DBlue"
+            android:textSize="28dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/amount"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="71dp"
+            android:background="@drawable/rectangle"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/costs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="₹  530.00"
+                android:textColor="@color/White"
+                android:textSize="39dp"
+                android:fontFamily="@font/times"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="160dp"
+            android:fontFamily="@font/times"
+            android:text="27 OCT 2018 6:27:00 "
+            android:layout_below="@+id/amount"
+            android:textColor="@color/DBlue"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/l1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_div"
+            android:layout_below="@+id/amount"
+            android:layout_marginTop="70dp"
+            />
+
+        <LinearLayout
+            android:layout_width="7dp"
+            android:layout_height="7dp"
+            android:layout_below="@+id/l1"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="8dp"
+            android:background="@color/Green"/>
+        <LinearLayout
+            android:layout_width="7dp"
+            android:layout_height="7dp"
+            android:layout_below="@+id/l2"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="8dp"
+            android:background="@color/DarkRed">
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="700dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/l1"
+            android:layout_marginTop="11dp"
+            android:layout_marginLeft="25dp"
+            style="@style/textscroll"
+            android:text="No. 40 / 37 , Thillai Nagar 9th Cross Street, Tiruchirappalli"
+            android:textSize="14.5dp" />
+
+        <TextView
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/l2"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            style="@style/textscroll"
+            android:text="K.K Nagar Main Road , Tiruchirappalli, Tamilnadu"
+            android:textSize="14.5dp" />
+        <ImageView
+            android:id="@+id/l2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="252dp"
+            android:src="@drawable/line_div" />
+
+        <ImageView
+            android:id="@+id/l3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="294dp"
+            android:src="@drawable/line_div" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/misc"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/times"
+            android:text="MISCELLANEOUS"
+            android:layout_below="@+id/l3"
+            android:textColor="@color/DBlue"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_below="@+id/misc"
+            android:layout_width="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:layout_height="wrap_content"
+            android:text="TOLL CHARGE"
+            android:textSize="13dp"
+            android:id="@+id/toll"
+            android:layout_marginTop="20dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toll"
+            android:layout_marginTop="4dp"
+            android:layout_alignParentStart="true"
+            android:id="@+id/tcharge"
+            android:layout_marginStart="33dp"
+            android:text="₹ 100"
+            android:fontFamily="@font/times"
+            android:textColor="@color/Black" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/percharge"
+            android:layout_marginStart="33dp"
+            android:text="₹ 200"
+            android:layout_marginTop="4dp"
+            android:layout_below="@id/perm"
+            android:fontFamily="@font/times"
+            android:textColor="@color/Black" />
+
+        <TextView
+            android:id="@+id/parcharge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/park"
+            android:layout_marginEnd="55dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/times"
+            android:text="₹ 120"
+            android:textColor="@color/Black" />
+
+
+        <TextView
+            android:layout_below="@+id/misc"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PERMIT CHARGE"
+            android:id="@+id/perm"
+            android:textSize="13dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:layout_below="@+id/misc"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PARKING CHARGE"
+            android:textSize="13dp"
+            android:id="@+id/park"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="20dp"
+            />
+
+        <ImageView
+            android:id="@+id/l4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toll"
+            android:layout_marginTop="50dp"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/line_div" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/l4"
+            >
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/book"
+                android:text="CLOSE"
+
+                android:textColor="@color/White" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@+id/l4"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edit"
+                android:text="HOME" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    </android.support.v4.widget.NestedScrollView>
